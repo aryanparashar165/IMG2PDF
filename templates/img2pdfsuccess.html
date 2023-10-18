@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion Successful</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="Menu">
+    <div class="form">
+        <h1>Conversion Successful</h1>
+        <p>{{ message }}</p>
+        <a href="{{ url_for('download_pdf') }}" download="converted.pdf" class="button">Download PDF</a>
+    </div>
+    </div>
+</body>
+</html>
